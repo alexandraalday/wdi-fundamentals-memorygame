@@ -1,4 +1,3 @@
-
 var cards = [
 {
        rank: "queen",
@@ -26,7 +25,7 @@ var cardsInPlay = [];
 
 //Check cards for a match
 var checkForMatch = function() {
-   
+   //Check to see if two cards have been chosen AND that they match
 	 if (cardsInPlay.length === 2 && cardsInPlay[0] === cardsInPlay[1]) {
       alert("Rad! You found a match!");
   } else {
@@ -34,7 +33,7 @@ var checkForMatch = function() {
   }
  };
 
-//Card selection
+//Card selection and call the function to check for a match
 var flipCard = function() {
   var cardId = this.getAttribute('data-id');
 	this.setAttribute('src', cards[cardId].cardImage);
@@ -45,7 +44,7 @@ var flipCard = function() {
 	checkForMatch();
 };
 
-//
+//Create the board
 var createBoard = function() {
 for (var i = 0; i < cards.length; i++) {
   var cardElement = document.createElement('img');
@@ -55,6 +54,6 @@ for (var i = 0; i < cards.length; i++) {
   document.getElementById('game-board').appendChild(cardElement);
 
   }
-};
+}
 
 createBoard();
