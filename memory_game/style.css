@@ -6,13 +6,14 @@ body {
 }
 
 header {
-	background-color: #F15B31;
+	background-color: #87d9fe;
 	padding: 30px 20px;
 }
 
 nav {
-	background-color: #00A6B3;
-	padding: 20px 0;
+	text-align: center;
+  background-color: #5cc6d9;
+  padding: 20px 0;
 }
 
 main {
@@ -23,7 +24,7 @@ main {
 footer {
     text-transform: uppercase;
     padding: 0 20px;
-    background-color: #0D2C40;
+    background-color: #245a9d;
     color: #ffffff;
     font-size: 14px;
     letter-spacing: .08em;
@@ -31,8 +32,9 @@ footer {
 }
 
 h1 {
+    text-align: center;
     font-family: "Raleway", sans-serif;
-    color: #0D2C40;
+    color: #245a9d;
     letter-spacing: 1px;
     font-weight: 400;
     font-size: 45px;
@@ -41,7 +43,7 @@ h1 {
 
 a {
     font-family: "Raleway", sans-serif;
-    color: #F15B31;
+    color: #245a9d;
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 18px;
@@ -91,6 +93,6 @@ img {
 }
 
 .name {
-   color:#F15B31;
+   color:#fc95ff;
    font-weight: 700;
 }
